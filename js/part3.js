@@ -1,7 +1,7 @@
 // What are data types? and
 // What are different data type in javascript?
 
-/*Answer :Data types are the categories of dta value which can 
+/*Answer: Data types are the categories of dta value which can 
 be stored in javascript language.
  For example in English there is a alphabet
  and number system. Likewise in javascript
