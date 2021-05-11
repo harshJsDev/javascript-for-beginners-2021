@@ -9,65 +9,53 @@
 // trim
 // Index of
 
-let exampleString = 'Code Fusion';
-let result = exampleString.repeat(3);
+// ======================
+
+
+let exampleString = "I love coding. ";
+let result = exampleString.repeat(5);
 console.log(result);
 
-// ================================================================
-
-let exampleString2 = "I ❤️ Coding. Coding is my life.";
-result = exampleString2.replace("Coding", "Javascript");
-console.log(result);
-result = exampleString2.replaceAll("Coding", "Javascript");
+let exampleString2 = "I love coding, coding is my life. ";
+result = exampleString2.replace("coding", "Javascript");
 console.log(result);
 
-// ================================================================
-
-let exampleString3 = "I ❤️ Coding. Coding is my life.";
-result = exampleString3.slice(4, 8);
+result = exampleString2.replaceAll("coding", "Javascript");
 console.log(result);
 
-
-// ================================================================
-let exampleString4 = "I ❤️ Coding. Coding is my life.";
-result = exampleString4.startsWith("I");
+let exampleString3 = "Subscribe to code Fusion.";
+result = exampleString3.substring(13, 24);
 console.log(result);
 
-
-// ================================================================
-
-let exampleString5 = "THIS IS NOT THE LOWER  CASE 💼.";
-result = exampleString5.toLowerCase();
-console.log(result);
-
-// ================================================================
-
-let exampleString6 = "this is not the upper case 💼.";
-result = exampleString6.toUpperCase();
-console.log(result);
-
-// ================================================================
-
-let exampleString7 = 123;
-console.log(typeof(exampleString7));
-
-result = exampleString7.toString();
-console.log(typeof(result));
-
-
-// ================================================================
-
-let exampleString8 = "       Lets trim some extra space";
-
-console.log(exampleString8);
-
-result = exampleString8.trim();
+let exampleString4 = "Please like this video or live stream";
+result = exampleString4.startsWith("please");
 console.log(result);
 
 
-//  ===============================================================
-let exampleString9 = "Search the hidden word in this sentence.";
-document.write(exampleString3)
+// ABCD abcd
 
-result = exampleString9.indexOf("hidden");
-console.log(`the index of hidden  ${result}`);
+let exampleString5 = "this is not the uppercase!!!";
+// console.log(exampleString5);
+result = exampleString5.toUpperCase();
+console.log(result);
+
+let exampleString6 = "THIS IS NOT LOWER CASE!!!!!!";
+result = exampleString6.toLowerCase();
+console.log(result);
+
+let exampleNumber = 33;
+console.log(typeof (exampleNumber));
+result = exampleNumber.toString();
+console.log(result);
+console.log(typeof (result));
+
+let exampleString7 = "     harsh Kumar     ";
+console.log(exampleString7);
+console.log(exampleString7.length);
+result = exampleString7.trim();
+console.log(result);
+console.log(result.length);
+
+let exampleString8 = "Please share this video to you friend and help them and support me also";
+result = exampleString8.indexOf("video");
+console.log(result);
