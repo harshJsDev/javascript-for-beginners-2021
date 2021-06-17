@@ -8,4 +8,4 @@ let listOfAnimal = ["Lion", "Tiger", "Python", "Pug"];
 listOfAnimal.push("Eagle");
 listOfAnimal.pop();
 console.log(listOfAnimal);
-listOfAnimal.
+
